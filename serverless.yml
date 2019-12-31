@@ -5,8 +5,8 @@ provider:
   runtime: dotnetcore2.1
   region: eu-west-1
   profile: serverless-admin
-  timeout: 60
-  memorySize: 1024
+  timeout: 30
+  memorySize: 128
   iamRoleStatements:
    - Effect: "Allow"
      Action:
