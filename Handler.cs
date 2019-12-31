@@ -63,7 +63,6 @@ namespace AwsDotnetCsharp
             }
             catch (Exception e)
             {
-                Console.WriteLine($"Error getting object {evnt.Records?[0].S3.Object.Key} from bucket {evnt.Records?[0].S3.Bucket.Name}. Make sure they exist and your bucket is in the same region as this function.");
                 Console.WriteLine(e.Message);
                 Console.WriteLine(e.StackTrace);
                 throw;
