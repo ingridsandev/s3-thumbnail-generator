@@ -5,8 +5,8 @@ provider:
   runtime: dotnetcore2.1
   region: eu-west-1
   profile: serverless-admin
-  timeout: 10
-  memorySize: 128
+  timeout: 60
+  memorySize: 1024
   iamRoleStatements:
    - Effect: "Allow"
      Action:
@@ -30,8 +30,6 @@ functions:
       - s3:
           bucket: ${self:custom.bucket}
           event: s3:ObjectCreated:*
-          rules:
-            - suffix: .png
 
     package:
       artifact: bin/release/netcoreapp2.1/S3ThumbnailGenerator.zip
