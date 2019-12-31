@@ -52,7 +52,7 @@ namespace AwsDotnetCsharp
                         continue;
                     }
 
-                    // Resize the image according to the size set in the enviroment variables
+                    // Resize the image according to the size set in the environment variables
                     var imageStream = await ResizeImageAsync(record);
 
                     // Put in the same S3 bucket the image resized ending in "_thumbnail"
