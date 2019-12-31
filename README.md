@@ -4,4 +4,9 @@
 
 **Keywords:** C#, CSharp, DotNetCore, Aws, LambdaFunction, S3Bucket, Serverless, yaml, yml
 
->**Author:** [Ingrid Alves dos Santos](https://www.linkedin.com/in/ingridalves/)
+**TODO:**
+ - Build alerting using AWS SMS if an image is not sucessfully processed
+ - Put image metadata in DynamoDB
+ 
+ 
+ >**Author:** [Ingrid Alves dos Santos](https://www.linkedin.com/in/ingridalves/)
