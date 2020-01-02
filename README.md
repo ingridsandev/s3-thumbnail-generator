@@ -8,7 +8,7 @@
 **Keywords:** C#, CSharp, DotNetCore, Aws, LambdaFunction, S3Bucket, Serverless, yaml, yml, Automation
 
 **TODO:**
- - Build alerting using AWS SMS if an image is not sucessfully processed
+ - Build alerting using AWS SNS if an image is not sucessfully processed
  - Put image metadata in DynamoDB
  
  
